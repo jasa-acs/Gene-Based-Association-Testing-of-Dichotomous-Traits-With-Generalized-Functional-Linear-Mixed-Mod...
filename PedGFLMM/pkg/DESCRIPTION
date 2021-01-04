@@ -1,0 +1,26 @@
+Package: PedGFLMM
+Type: Package
+Title: Gene-Based Association Testing of Dichotomous Traits with Generalized Linear Mixed Models for Family Data
+Version: 1.0.0
+Authors@R: c(person("Yingda", "Jiang", role = "aut"),
+             person("Chi-Yang", "Chiu", role = "aut"),
+             person(c("Daniel","E."), "Weeks",    email = "weeks@pitt.edu", role = "aut"),
+             person("Ruzong", "Fan",    email = "rf740@georgetown.edu", role = c("aut","cre")),
+             person("","Georgetown University",role="cph"),
+             person("","University of Pittsburgh",role="cph"))
+Description: Implements family-based additive generalized linear mixed models (GLMM) and generalized functional linear mixed models (GFLMM) for gene-based association testing of dichotomous traits.
+URL: https://github.com/DanielEWeeks/PedGFLMM
+BugReports: https://github.com/DanielEWeeks/PedGFLMM/issues
+License: GPL-2
+Depends: R (>= 3.5)
+biocViews:
+Imports: 
+  fda, MASS, Matrix, nlme, pedigreemm, lme4, Mega2R
+Suggests:
+    knitr,
+    rmarkdown,
+    formatR
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+VignetteBuilder: knitr

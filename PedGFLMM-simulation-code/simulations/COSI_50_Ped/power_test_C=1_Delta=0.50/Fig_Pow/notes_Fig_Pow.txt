@@ -1,0 +1,1 @@
+This folder is where the bar_result_plot_causal_pct_5_10_15.R R script in the simulations folder will write its output.

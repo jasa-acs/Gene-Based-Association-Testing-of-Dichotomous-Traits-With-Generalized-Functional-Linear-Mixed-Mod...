@@ -1,0 +1,1 @@
+The 'Type_I_error_Rare_region_size_6k.R' R script writes its output into this 'simulations/COSI_50_Ped/Type_I_Error_Rare' folder.
